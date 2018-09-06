@@ -25,7 +25,7 @@ var TT = qingke = {
 		//指定上传文件参数名称
 		filePostName  : "uploadFile",
 		//指定上传文件请求的url。
-		uploadJson : '/pic/upload',
+		uploadJson : 'pic/upload.do',
 		//上传类型，分别为image、flash、media、file
 		dir : "image"
 	},
@@ -82,6 +82,7 @@ var TT = qingke = {
         	}
         	//给“上传图片按钮”绑定click事件
         	$(e).click(function(){
+        		//parentsUntil 向上查找父节点，直到找到为止但不包括父节点
         		var form = $(this).parentsUntil("form").parent("form");
         		//打开图片上传窗口
         		KindEditor.editor(TT.kingEditorParams).loadPlugin('multiimage',function(){
@@ -123,7 +124,7 @@ var TT = qingke = {
     			    onOpen : function(){
     			    	var _win = this;
     			    	$("ul",_win).tree({
-    			    		url:'/item/cat/list',
+    			    		url:'item/cat/list.do',
     			    		animate:true,
     			    		onClick : function(node){
     			    			if($(this).tree("isLeaf",node.target)){

@@ -20,7 +20,7 @@ public class TbItem {
     private Long cid;
 
     private Byte status;
-
+    
     private Date created;
 
     private Date updated;
