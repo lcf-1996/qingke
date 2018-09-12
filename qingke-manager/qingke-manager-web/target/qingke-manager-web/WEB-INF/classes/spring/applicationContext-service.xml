@@ -24,7 +24,7 @@
           <property name="locations">
              <list>
                   <value>classpath:properties/resource.properties</value>
-              </list>
+             </list>
           </property>
       </bean>
       <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer">

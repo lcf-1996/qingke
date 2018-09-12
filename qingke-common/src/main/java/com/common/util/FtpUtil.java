@@ -137,7 +137,7 @@ public class FtpUtil {
 		return result;
 	}
 	
-	/*public static void main(String[] args) {
+	public static void main(String[] args) {
 		try {  
 	        FileInputStream in=new FileInputStream(new File("D:\\back.crd"));  
 	        boolean flag = uploadFile("192.168.1.176", 21, "ftpuser", "ftpuser", "/home/ftpuser/","/2015/01/21", "back.crd", in);  
@@ -145,6 +145,6 @@ public class FtpUtil {
 	    } catch (FileNotFoundException e) {  
 	        e.printStackTrace();  
 	    }  
-	}*/
+	}
 }
 

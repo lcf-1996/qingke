@@ -10,12 +10,6 @@
         <dependent-module archiveName="qingke-common-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/qingke-common/qingke-common">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="qingke-manager-mapper-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/qingke-manager-mapper/qingke-manager-mapper">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
-        <dependent-module archiveName="qingke-manage-pojo-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/qingke-manage-pojo/qingke-manage-pojo">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
         <property name="context-root" value="qingke-manager-web"/>
         <property name="java-output-path" value="/qingke-manager-web/target/classes"/>
     </wb-module>

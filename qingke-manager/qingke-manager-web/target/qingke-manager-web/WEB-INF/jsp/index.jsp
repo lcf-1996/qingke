@@ -25,13 +25,13 @@
          		<ul>
 	         		<li data-options="attributes:{'url':'item/item-add.do'}">新增商品</li>
 	         		<li data-options="attributes:{'url':'item/item-list.do'}">查询商品</li>
-	         		<li data-options="attributes:{'url':'item-param-list'}">规格参数</li>
+	         		<li data-options="attributes:{'url':'item/item-param.do'}">规格参数</li>
 	         	</ul>
          	</li>
          	<li>
          		<span>网站内容管理</span>
          		<ul>
-	         		<li data-options="attributes:{'url':'content-category'}">内容分类管理</li>
+	         		<li data-options="attributes:{'url':'content/category/content-category.do'}">内容分类管理</li>
 	         		<li data-options="attributes:{'url':'content'}">内容管理</li>
 	         	</ul>
          	</li>
